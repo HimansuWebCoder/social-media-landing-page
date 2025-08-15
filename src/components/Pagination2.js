@@ -14,8 +14,8 @@ const PaginatedNumbers = ({
         <button
           onClick={() => changePage(index)}
           className={`bg-white ${
-            page === index ? "bg-red-500" : "hover:bg-blue-500 hover:text-white"
-          } border-gray-300 relative inline-flex items-center px-4 py-2 border text-black text-sm font-medium`}
+            page === index ? "bg-red-600 text-white" : "hover:bg-red-600 hover:text-white"
+          } border-gray-300 relative inline-flex items-center px-4 py-2 border text-sm font-medium`}
         >
           {index}{" "}
         </button>
